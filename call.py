@@ -1,7 +1,7 @@
 from subprocess import call
 import glob
 
-FilePath=glob.glob("C:\\Users\\ksxq074\\CPM\\CPM files\\*.xlsx")
+FilePath=glob.glob("C:\\Users\\CPM\\CPM files\\*.xlsx")
 
 for arg in FilePath:
 	call(["Python", "CENtree_Report.py","-i",arg])
